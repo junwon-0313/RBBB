@@ -5,6 +5,41 @@
 
 <meta charset="utf-8">
 
+<style>
+#title h1{
+  padding: 20px;
+  text-align: center;
+  color: orange;
+  font-size: 45px;
+  border-bottom: solid orange 2px;
+  margin-bottom:0px;
+}
+#list {
+display: grid;
+grid-template-columns: 1fr 3fr  ;
+text-align: center;
+margin: 0; padding: 10px;
+border-bottom: orange solid 2px;
+font-size: 30px;
+}
+.booklist{
+  border-right: orange solid 2px;
+}
+a{
+  text-decoration:none;
+}
+body{
+  margin: 30px;
+  border: orange solid 2px;
+}
+.book{
+  margin:30px;
+}
+
+}
+
+</style>
+
 <!-- Global site tag (gtag.js) - Google Analytics 구글 분석기-->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174188547-1"></script>
 <script>
@@ -17,15 +52,18 @@
 </head>
 
 <body>
-<h1><a href="index.html" style="color:orange; text-decoration: none">RBBB</a></h1>
-<ul>
-<li><a href="1.html" style="text-decoration: none">타이탄의 도구들<br><br>
-<img src="tools of titans.PNG" width="200px"></a></li>
+<div id="title"><a href="index.html"><h1>RBBB</h1></a>
+<div id="list">
+<div class="booklist"><a href="Book list.html">Book list</a></div>
+  <div class="title">정의란 무엇인가</div> </div></div>
 
-<li><a href="1.html" style="text-decoration: none">정의란 무엇인가<br><br>
-<img src="what is justice.PNG" width="200px"></a></li>
-</ul>
+<img src="what is justice.PNG" width="150px" class="book">
+<p> <독서일지><br>책을 읽고 각자 인상깊은 부분을 공유한다.<br>
+  책의 내용을 다양한 시각으로 바라보고 함께 고려해볼 만한 문제를 선정한다.
 
+</p>
+<p>
+</p>
 </body>
 
 </html>
