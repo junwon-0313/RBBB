@@ -1,25 +1,41 @@
-h1{
-  margin: 20px;
+h1 {
+  margin: auto;
+  width: 900px;
   text-align: center;
   color: orange;
   font-size: 45px;
+  padding-bottom: 20px;
 }
-a{
-  text-decoration:none;
+
+a {
+  text-decoration: none;
   color: black;
 }
-body{
+
+body {
   margin: 30px;
   border: 2px;
 }
-#booklist{
+
+#booklist {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 300px 300px 300px;
   text-align: center;
-  margin: 15px;
+  width: 900px;
+  margin: auto;
   border: none;
 }
-#booklist div{
-  padding: 15px; margin:5px;
+
+#booklist div {
+  padding: 15px;
+  margin: 5px;
   border: orange solid 1px;
+}
+
+#booklist li {
+  list-style: none;
+  font-weight: bold;
+}
+#booklist img{
+  margin-top: 10px;
 }

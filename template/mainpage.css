@@ -59,6 +59,11 @@ strong {
   font-size: 18px;
 }
 
+#main {
+  margin: auto;
+  width: 850px;
+}
+
 .booklist {
   text-align: center;
 }
@@ -71,7 +76,30 @@ strong {
 #book {
   display: flex;
   flex-flow: row wrap;
-  height: 500px;
   width: 800px;
   margin: auto;
+  justify-content: space-around;
+}
+
+#book div {
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  margin: 5px;
+  border-bottom: 1px dashed #bcbcbc;
+  font-weight: bold;
+  font-size: 20px;
+}
+#book img{
+  margin-bottom: 10px;
+}
+
+#bottom {
+  margin: auto;
+  width: 850px;
+}
+
+#disqus_thread {
+  margin: auto;
+  width: 850px;
 }
