@@ -1,6 +1,8 @@
 body {
   width:900px;
   margin: auto;
+  margin-top:20px;
+  margin-bottom: 20px;
   border: orange solid 2px;
 }
 
@@ -35,7 +37,7 @@ a {
 
 #summary {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 300px 600px;
   text-align: left;
   font-size: 20px;
   padding: 10px;
@@ -46,6 +48,9 @@ a {
   padding-left: 20px;
 }
 
+#summary li{
+  margin-bottom: 10px;
+}
 
 .co {
   color: gray;
@@ -71,60 +76,18 @@ a {
   padding-bottom: 10px;
 }
 
+#topic{
+margin:30px;
+padding-bottom: 30px;
+border-bottom: 3px dashed grey;
+}
 
-@media(max-width:700px) {
-  #title h1 {
-    padding: 20px;
-    text-align: center;
-    color: orange;
-    font-size: 45px;
-    border-bottom: solid orange 2px;
-    margin-bottom: 0px;
-  }
+#topic h2{
+  color: navy;
+}
 
-  #list {
-    display: grid;
-    grid-template-columns: 3fr 7fr;
-    text-align: center;
-    margin: 0;
-    padding: 10px;
-    border-bottom: orange solid 2px;
-    font-size: 15px;
-    color: black;
-    font-weight: bold;
-  }
-
-  #list .booklist {
-    border-right: orange solid 2px;
-  }
-
-  #summary {
-    display: none;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .co {
-    color: gray;
-  }
-
-  body {
-    margin: 30px;
-    border: orange solid 2px;
-  }
-
-  .book {
-    margin: 30px;
-  }
-
-  #text {
-    display grid;
-    grid-template-columns: 1fr;
-    margin: 20px;
-    line-height: 25px;
-    font-size: 15px;
-    font-weight: 500;
-  }
+#topic a{
+  font-size:20px;
+  font-weight: bold;
+  color:black;
 }
