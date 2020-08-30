@@ -1,6 +1,7 @@
 body {
   margin-top: 100px;
   padding: 10px;
+  background-color: #fafafa;
 }
 
 a {
@@ -26,15 +27,16 @@ strong {
   margin: auto;
   width: 850px;
   height: 103px;
-  background-color: gray;
+  background-color: #eeeeee;
 }
 
 .head div {
   margin-top: 10px;
 }
 
-.head a {
-  color: orange;
+.name a {
+  color: #ffa41b;
+  font-weight: bold;
   font-size: 40px;
 }
 
@@ -50,7 +52,25 @@ strong {
   width: 850px;
   height: 30px;
   margin: auto;
-  padding-top: 10px;
+}
+
+.category div {
+  margin-top: 3px;
+}
+
+.category a {
+  color: #616161;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.RBBB {
+  color: #607d8b;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+  padding-top: 15px;
 }
 
 #guide {
@@ -89,7 +109,7 @@ strong {
 }
 
 .booklist a {
-  color: tomato;
+  color: #607d8b;
 }
 
 #book {
@@ -98,7 +118,7 @@ strong {
   width: 800px;
   margin: auto;
   justify-content: space-around;
-  border: tomato dashed 4px;
+  border: #bdbdbd dashed 4px;
 }
 
 #book div {
@@ -115,9 +135,13 @@ strong {
   margin-bottom: 10px;
 }
 
-.topiclist{
+#book a {
+  color: #180000;
+}
+
+.topiclist {
   text-align: center;
-  color: navy;
+  color: #607d8b;
   font-size: 25px;
 }
 
@@ -126,14 +150,17 @@ strong {
   flex-flow: column wrap;
   width: 800px;
   margin: auto;
-  margin
-  justify-content: space-around;
+  margin justify-content: space-around;
   border: tomato dashed 4px;
 }
 
-#topic .issue{
+#topic .issue {
   margin: 10px;
   font-size: 20px;
+}
+
+#topic a {
+  color: #616161;
 }
 
 #bottom {

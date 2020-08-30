@@ -3,7 +3,8 @@ body {
   margin: auto;
   margin-top:20px;
   margin-bottom: 20px;
-  border: orange solid 2px;
+  border: #e0e0e0 solid 2px;
+  background-color: #fafafa;
 }
 
 a {
@@ -14,9 +15,9 @@ a {
 #title h1 {
   padding: 20px;
   text-align: center;
-  color: orange;
+  color: #ffa41b;
   font-size: 45px;
-  border-bottom: solid orange 2px;
+  border-bottom: solid #e0e0e0 2px;
   margin-bottom: 0px;
 }
 
@@ -26,13 +27,13 @@ a {
   text-align: center;
   margin: 0;
   padding: 10px;
-  border-bottom: orange solid 2px;
+  border-bottom: #e0e0e0 solid 2px;
   font-size: 30px;
   color: black;
 }
 
 #list .booklist {
-  border-right: orange solid 2px;
+  border-right: #e0e0e0 solid 2px;
 }
 
 #summary {
@@ -41,7 +42,7 @@ a {
   text-align: left;
   font-size: 20px;
   padding: 10px;
-  border-bottom: dashed 2px orange;
+  border-bottom: dashed 2px #e0e0e0;
 }
 
 #summary .list {
@@ -71,7 +72,7 @@ a {
 }
 
 #text div{
-  border-bottom: dashed 1px orange;
+  border-bottom: dashed 1px #e0e0e0;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
@@ -79,11 +80,11 @@ a {
 #topic{
 margin:30px;
 padding-bottom: 30px;
-border-bottom: 3px dashed grey;
+border-bottom: 3px dashed #e0e0e0;
 }
 
 #topic h2{
-  color: navy;
+  color: #34515e;
 }
 
 #topic a{

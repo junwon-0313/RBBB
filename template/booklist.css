@@ -1,20 +1,24 @@
+body {
+  margin: 30px;
+  border: 2px;
+  background-color: #eceff1;
+}
+
 h1 {
   margin: auto;
   width: 900px;
   text-align: center;
-  color: orange;
   font-size: 45px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+#name a {
+  color: #ffa41b;
 }
 
 a {
   text-decoration: none;
-  color: black;
-}
-
-body {
-  margin: 30px;
-  border: 2px;
+  color: #180000;
 }
 
 #booklist {
@@ -28,14 +32,14 @@ body {
 
 #booklist div {
   padding: 15px;
-  margin: 5px;
-  border: orange solid 1px;
+  border: #babdbe solid 1px;
 }
 
 #booklist li {
   list-style: none;
   font-weight: bold;
 }
-#booklist img{
+
+#booklist img {
   margin-top: 10px;
 }
